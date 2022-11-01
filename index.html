@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MVT Test</title>
+  <link href="node_modules/ol/ol.css" rel="stylesheet">
+  <link href="css/mvt-test.css" rel="stylesheet">
+</head>
+<body>
+  <div id="map"></div>
+  <script type="module" src="js/main.js"></script>
+  <div id="buttons">
+    <button id="ol-maptiler" onclick="olMapTiler()">OpenLayers/MapTiler</button>
+    <button id="ol-esri" onclick="olEsri()">OpenLayers/ESRI</button>
+    <button id="mapbox-maptiler" onclick="mapboxMapTiler()">MapBox/MapTiler</button>
+    <button id="mapbox-esri" onclick="mapboxEsri()">MapBox/ESRI</button>
+  </div>
+</body>
+</html>

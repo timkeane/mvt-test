@@ -1,0 +1,16 @@
+{
+  "name": "ol-maptiler",
+  "dependencies": {
+    "ol": "7.1.0",
+    "ol-mapbox-style": "9.2.0",
+    "mapbox-gl": "2.10.0"
+  },
+  "devDependencies": {
+    "vite": "^3.0.3",
+    "@babel/core": "latest"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  }
+}
